@@ -65,9 +65,9 @@ Bastler & Nerds, die jeden Ping lieben ❤️
 
 📝 Beispiel-Output
 ```bash
--/|\ PingESPScan aktiv! Ziel: 192.168.178.31
+-/|\ PingESPScan aktiv! Ziel: 192.168.1xx.1
 🔔 Ziel erreichbar! Ton wird abgespielt
--/|\ PingESPScan aktiv! Ziel: 192.168.178.31
+-/|\ PingESPScan aktiv! Ziel: 192.168.1xx.1
 ```
 
 💡 Tipps

@@ -1,27 +1,33 @@
-PingESPScan
+# 🚀 PingESPScan – Ultimatives Netzwerk-Monitoring 🛰️
 
-Ein einfaches Bash-Skript, das eine bestimmte IP-Adresse überwacht und bei Erreichbarkeit einen Ton abspielt. Zusätzlich zeigt es eine kleine animierte Anzeige in der Konsole.
+![Banner](https://img.shields.io/badge/Status-Beta-blue) ![Bash](https://img.shields.io/badge/Language-Bash-yellow) ![Linux](https://img.shields.io/badge/Platform-Linux-red)
 
-Features
+**PingESPScan** ist dein **ultimatives, super-intelligentes Netzwerk-Überwachungswerkzeug**, das IP-Adressen blitzschnell überwacht und sofort Alarm schlägt, wenn dein Ziel erreichbar ist. Perfekt für IoT-Enthusiasten, Bastler und Netzwerk-Ninjas! 🥷
 
-Überwacht eine Ziel-IP über Ping
+---
 
-Spielt bei Erreichbarkeit eine Sounddatei ab
+## 🌟 Features
 
-Kleine Animation in der Konsole, während das Skript läuft
+- ✅ **Echtzeit-IP-Überwachung** – Ping die Ziel-IP ununterbrochen  
+- 🔊 **Alarm per Sound** – Sofortiger akustischer Hinweis, wenn das Ziel online ist  
+- 🎨 **Coole Terminal-Animation** – Live-Spinner zeigt, dass das Skript aktiv läuft  
+- ♾️ **Endlosschleife** – 24/7 Netzwerk-Monitoring, zuverlässig wie ein Schweizer Uhrwerk ⏱️  
+- 🛠️ **Minimalistisch & leichtgewichtig** – Kein unnötiger Ballast, läuft auf jedem Linux-System  
 
-Endlosschleife für kontinuierliches Monitoring
+---
 
-Voraussetzungen
+## ⚙️ Voraussetzungen
 
-Linux- oder Unix-ähnliches System
+- Linux / Unix-ähnliches System  
+- Bash (>=4.0)  
+- `aplay` (Teil von ALSA) für Soundausgabe  
+- Zugriff auf die gewünschte Sounddatei (`.wav` empfohlen)
 
-Bash
+---
 
-aplay (Teil von ALSA) zum Abspielen der Sounddatei
+## 📦 Installation
 
-Zugriff auf die gewünschte Sounddatei (Standard: /usr/share/sounds/alsa/Front_Center.wav)
-
-Installation
-
-Repository klonen:
+1. Repository klonen:
+```bash
+git clone https://github.com/jogiesp/pingespscan.git
+cd pingespscan

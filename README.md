@@ -31,3 +31,53 @@
 ```bash
 git clone https://github.com/jogiesp/pingespscan.git
 cd pingespscan
+
+
+2 .Script ausführbar machen
+chmod +x pingespscan.sh
+
+
+3. Ziel-IP und Sounddatei nach Wunsch anpassen:
+# pingespscan.sh
+target_ip="192.168.178.31"
+sound_file="/usr/share/sounds/alsa/Front_Center.wav"
+
+🏃‍♂️ Nutzung
+./pingespscan.sh🎯 Vision
+
+PingESPScan ist mehr als nur ein Skript – es ist das Tor zu deiner smarten Netzwerk-Kontrolle.
+Perfekt für:
+
+Smart-Home Enthusiasten 🏠
+
+IoT-Entwickler 🤖
+
+Netzwerk-Administratoren 💻
+
+Bastler & Nerds, die jeden Ping lieben ❤️
+
+
+
+📝 Beispiel-Output
+
+-/|\ PingESPScan aktiv! Ziel: 192.168.178.31
+🔔 Ziel erreichbar! Ton wird abgespielt
+-/|\ PingESPScan aktiv! Ziel: 192.168.178.31
+
+
+💡 Tipps
+
+Du kannst mehrere Skript-Instanzen für verschiedene IPs starten
+
+Sounddateien frei wählbar (WAV empfohlen)
+
+Läuft perfekt auf Raspbian, Ubuntu & anderen Linux-Distributionen
+
+
+
+📜 Lizenz
+
+MIT License – frei verwendbar, anpassbar und erweiterbar 🌍
+
+
+

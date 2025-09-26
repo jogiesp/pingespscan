@@ -79,6 +79,15 @@ Sounddateien frei wählbar (WAV empfohlen)
 Läuft perfekt auf Raspbian, Ubuntu & anderen Linux-Distributionen
 
 
+Hinweis:
+
+Passe die Ziel-IP (target_ip) und Sounddatei (sound_file) in pingespscan.sh nach Bedarf an.
+
+Beenden: CTRL+C → Animation & Überwachung stoppen
+
+Icons für Release Notes:
+
+
 
 📜 Lizenz
 
